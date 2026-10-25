@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>المطبخ الصغير</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bg"></div>
+
+<section id="home" class="scr on">
+  <div class="bar"><div class="pill"><img src="assets/star1.png" alt=""><b class="st">0</b></div><div class="pill lvp">المستوى <b class="lvn">1</b> / 10</div><span class="sp"></span><div class="tools"></div></div>
+  <div class="center">
+    <img class="logo" src="assets/logo.png" alt="المطبخ الصغير">
+    <img class="chefbig" src="assets/chef.png" alt="">
+    <button class="big" id="go"><img src="assets/play.png" alt="">هيا نطبخ!</button>
+    <button class="big alt" id="pick">اختر مستوى</button>
+  </div>
+</section>
+
+<section id="game" class="scr">
+  <div class="bar"><button class="ib" id="homeB"><img src="assets/home.png" alt="الرئيسية"></button><div class="pill"><img src="assets/star1.png" alt=""><b class="st">0</b></div>
+    <div class="pill lvp">المستوى <b class="lvn">1</b><span class="dots"></span></div><span class="sp"></span><div class="tools"></div></div>
+  <div class="top"><img id="chef" src="assets/chef_happy.png" alt="">
+    <div class="card"><button class="ib" id="rep"><img src="assets/sound.png" alt="أعد الطلب"></button><div id="needs"></div><div id="txt"></div></div></div>
+  <div class="work"><div class="stage" id="stage"><div class="cloth" id="cloth"><div class="plate" id="plate"><i id="cnt"></i></div></div><div class="baskets" id="baskets"></div></div>
+    <div class="shelf" id="shelf"></div></div>
+</section>
+
+<section id="levels" class="scr"><div class="bar"><button class="ib" id="lvBack"><img src="assets/home.png" alt=""></button><span class="sp"></span></div>
+  <div class="center"><h1>اختر مستوى</h1><div id="grid"></div></div></section>
+
+<section id="end" class="scr"><div class="center">
+  <img class="chefbig" src="assets/chef_cheer.png" alt=""><img class="trophy" src="assets/trophy.png" alt="">
+  <h1>أحسنت يا بطل! لقد أصبحت شيفًا صغيرًا!</h1><p>تعلمت الأعداد والألوان وأعددت أطباقًا رائعة!</p>
+  <div class="pill big2"><img src="assets/star1.png" alt=""><b class="st">0</b></div>
+  <button class="big" id="again">هيا نلعب مرة أخرى!</button><button class="big alt" id="pick2">اختر مستوى جديدًا</button></div></section>
+
+<div class="ov" id="ov"><div class="box"><img src="assets/bubble.png" class="bub" alt="أحسنت"><img id="dish" alt=""><button class="ib nx" id="next"><img src="assets/next.png" alt="التالي"></button></div></div>
+<div class="ov" id="help"><div class="box"><img src="assets/chef_wink.png" class="hc" alt=""><p>اضغط على الفاكهة أو اسحبها إلى الطبق.<br>اضغط على الفاكهة في الطبق لإرجاعها.<br>اضغط على 🔊 لتسمع الطلب.</p><button class="big" id="hx">فهمت!</button></div></div>
+<script src="script.js"></script>
+</body></html>
